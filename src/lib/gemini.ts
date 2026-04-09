@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "AIzaSyDXNRQVWVoZxyAJisAskMpj4dw8hv8uxfY" });
 
 // Use flash model for faster response
 const MODEL_NAME = "gemini-3-flash-preview";
